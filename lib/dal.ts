@@ -4,6 +4,7 @@ import { eq } from 'drizzle-orm'
 import { cache } from 'react'
 import { issues, users } from '@/db/schema'
 import { mockDelay } from './utils'
+<<<<<<< HEAD
 import { unstable_cacheTag as cacheTag } from 'next/cache'
 
 // Current user
@@ -79,3 +80,5 @@ export async function getIssues() {
     throw new Error('Failed to fetch issues')
   }
 }
+=======
+>>>>>>> 48a0a45 (03)

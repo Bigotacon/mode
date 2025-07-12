@@ -34,6 +34,7 @@ export type ActionResponse = {
   errors?: Record<string, string[]>
   error?: string
 }
+<<<<<<< HEAD
 
 export async function createIssue(data: IssueData): Promise<ActionResponse> {
   try {
@@ -158,3 +159,5 @@ export async function deleteIssue(id: number) {
     }
   }
 }
+=======
+>>>>>>> 48a0a45 (03)
